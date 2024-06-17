@@ -19,7 +19,7 @@ namespace JWT.Controllers
         [HttpGet("exception")]
         public IActionResult ThrowException()
         {
-            throw new Exception("No tragedia :(");
+            throw new Exception("Blad");
             return Ok();
         }
     }
